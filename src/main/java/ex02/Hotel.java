@@ -13,7 +13,6 @@ public class Hotel {
 	public Chef getChef() {
 		return chef;
 	}
-
 	
 	
 }

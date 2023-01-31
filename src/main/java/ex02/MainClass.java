@@ -10,8 +10,8 @@ public class MainClass {
 				new GenericXmlApplicationContext("application-context.xml");
 		
 		//생성자를 통한 주입확인
-		//Hotel hotel = ctx.getBean(Hotel.class);
-		//hotel.getChef().cooking();
+		Hotel hotel = ctx.getBean(Hotel.class);
+		hotel.getChef().cooking();
 		
 		
 		//세터를 통한 주입확인
