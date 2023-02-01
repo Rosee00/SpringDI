@@ -11,9 +11,7 @@ public class ServiceImpl {
 		this.dao = dao;
 	}
 	
-	
-
-	
+		
 	public String hello() {
 		return dao.hello() ;
 	}
